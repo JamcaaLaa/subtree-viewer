@@ -1,0 +1,44 @@
+html,
+body {
+  margin : 0;
+  padding: 0;
+}
+
+body {
+  display    : grid;
+  place-items: center;
+
+  width : 100vw;
+  height: 100vh;
+}
+
+#app {
+  display        : flex;
+  flex-direction : column;
+  align-items    : center;
+  height         : 70vh;
+  justify-content: space-around;
+  min-width      : 30rem;
+  min-height     : 30rem;
+}
+
+/* 滚动槽 */
+::-webkit-scrollbar {
+  width : .5rem;
+  height: .5rem;
+}
+
+::-webkit-scrollbar-track {
+  border-radius     : .25rem;
+  background        : rgba(0, 0, 0, 0.06);
+  box-shadow        : inset 0 0 .4rem rgba(0, 0, 0, 0.08);
+  -webkit-box-shadow: inset 0 0 .4rem rgba(0, 0, 0, 0.08);
+}
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+  border-radius     : .25rem;
+  background        : rgba(0, 0, 0, 0.12);
+  box-shadow        : inset 0 0 .4rem rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: inset 0 0 .4rem rgba(0, 0, 0, 0.2);
+}

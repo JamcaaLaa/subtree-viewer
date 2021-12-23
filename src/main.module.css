@@ -1,0 +1,68 @@
+.input-ele {
+  font-size: 1vw;
+  border   : .1vw solid rgba(20, 20, 20, .62);
+  padding  : .5vw;
+  width    : 100%;
+}
+
+.info {
+  display       : flex;
+  flex-direction: column;
+  align-items   : center;
+
+  width : 100%;
+  height: 90%;
+
+  border       : .1vw solid rgba(20, 20, 20, .62);
+  border-radius: .5vw;
+
+  padding   : .5vw;
+  margin-top: .5vw;
+}
+
+.header-fields {
+  display       : flex;
+  flex-direction: column;
+  align-items   : center;
+  width         : 95%;
+  margin        : 1.5vw;
+}
+
+.field-item {
+  display        : flex;
+  justify-content: flex-start;
+  align-items    : center;
+  width          : 100%;
+}
+
+.field-name {
+  width           : 25%;
+  background-color: #404040;
+  color           : azure;
+  padding         : 0.7vh;
+  text-align      : right;
+  margin          : .1vh 0;
+
+  min-width: 10rem;
+
+  border-bottom: .1vw solid #404040;
+  border-top   : .1vw solid #404040;
+}
+
+.field-value {
+  display       : flex;
+  flex-direction: column;
+  width         : 75%;
+  padding       : .6vh;
+
+  border-bottom: .1vw solid #404040;
+  border-top   : .1vw solid #404040;
+  border-right : .1vw solid #404040;
+}
+
+.json-text-area {
+  font-size  : 0.8vw;
+  overflow   : auto;
+  width      : 93%;
+  margin-left: 1vw;
+}
